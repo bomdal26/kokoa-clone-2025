@@ -1,0 +1,6 @@
+@import "reset.css";
+@import "variables.css";
+/*component*/
+@import "component/status_bar.css";
+/*page*/
+@import "capturepage/login.css"
