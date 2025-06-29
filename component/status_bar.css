@@ -1,8 +1,33 @@
 .status-bar{
+    position: fixed;
+    top:0;
+    width:100%;
+    box-sizing: border-box;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+ 
+}
+.status-bar__column{
+    width: 33%;
+}
 
+.status-bar__column:nth-child(2){
+    display: flex;
+    justify-content: center;
 }
-.status-bar__column:first-child span{
-    margin-right: 5px;
+.status-bar__column:nth-child(3){
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
+.status-bar__column i{
+    margin: 0px 6px
+}
+.fa-battery-three-quarters {
+    color:rgb(35, 156, 35);
+}
+.fa-bolt{
+    color: rgba(201, 201, 17, 0.685);
+}
+
+

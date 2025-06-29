@@ -1,6 +1,11 @@
+@import url("https://fonts.google.com/share?selection.family=Nunito:ital,wght@0,200..1000;1,200..1000");
+
 @import "reset.css";
 @import "variables.css";
 /*component*/
 @import "component/status_bar.css";
+@import "component/nav_bar.css";
+@import "component/screen-header.css";
 /*page*/
-@import "capturepage/login.css"
+@import "capturepage/login.css";
+@import "capturepage/friend.css";

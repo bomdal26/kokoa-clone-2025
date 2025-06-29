@@ -16,26 +16,27 @@
             <span>12:00</span>
         </div>
         <div class="status-bar__column">
+            <i class="fa-solid fa-lock"></i>
             <span>75%</span>
-            <i class="fa-solid fa-battery-three-quarters"></i>
+            <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
             <i class="fa-solid fa-bolt"></i>
         </div>
     </div>
 
     <header class="welcome-header">
      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
-     <p class="welcome-header__text">If you have a Kokoa Account, log in with your email or phone number</p>
+     <p class="welcome-header__text">If you have a Kokoa Account,<br> log in with your email or phone number</p>
     </header>
 
         
-    <form id="login-form">
-        <input class="login-form__" type="text" placeholder="Email or phone number">
-        <input type="password" placeholder="Password">
+    <form id="login-form" action="friend.html" method="get">
+        <input class="login-form__yellow" required type="text" placeholder="Email or phone number">
+        <input class="login-form__yellow" required type="password" placeholder="Password">
         <input type="submit" value="Log In">
-        <input type="submit" value="Sign Up">
+        <a href="##" target="_self">Link Kokoa Account or Password</a>
     </form>
 
-    <a href="##">Link Kokoa Account or Password</a>"
+    
  
    <script src="https://kit.fontawesome.com/de3e4bee3f.js" crossorigin="anonymous"></script>
 </body>
